@@ -9,7 +9,34 @@ body {
 }
 
 .carta-23 {
-    width: 920px;
-    height: 960px;
+    width: 950px;
+    height: 670px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    position: relative;
+    background-color: #0D0F1B;
+    overflow: hidden;
+}
+
+.lado-arriba, .lado-abajo {
+    position: relative;
+    z-index: 10;
+    padding: 50px;
+}
+
+.lado-arriba {
+    width: 380px;
+}
+
+.lado-arriba h2 {
+    font-size: 60px;    
+}
+
+img {
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 1;
+    scale: 1.1;
+    transform: scaleX(-1) translateX(-20px) translateY(-25px);
 }
