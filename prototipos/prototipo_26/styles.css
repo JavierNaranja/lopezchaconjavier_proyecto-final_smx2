@@ -10,4 +10,32 @@ body {
     width: 920px;
     height: 700px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #080C15;
+    color: #fff;
+    padding: 50px;
+}
+
+.contenido {
+    width: 500px;
+}
+
+.contenido h2 {
+    font-size: 54px;
+    line-height: 70px;
+}
+
+.contenido span {
+    color: #c20f0f;
+}
+
+.imagenes {
+    display: flex;
+}
+
+.imagenes img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    scale: 1.2;
 }
