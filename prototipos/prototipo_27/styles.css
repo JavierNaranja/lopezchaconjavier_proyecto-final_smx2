@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat;
+}
+
+.carta-27 {
+    width: 1000px;
+    height: 700px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
